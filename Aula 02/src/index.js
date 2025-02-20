@@ -5,7 +5,16 @@ const alunoView = new AlunoView();
 
 const input = prompt();
 
-function exibirMenu() {
+function menuInicial() {
+    console.log('\n######### MENU #############;')
+    console.log('1 - Modulo Aluno');
+    console.log('2 - Modulo Turma');
+    console.log('3 - Modulo Professor');
+    console.log('1 - Sair');
+    console.log('\n############################;')
+}
+
+function exibirMenuAluno() {
     console.log('\n######### MENU #############');
     console.log('1 - Criar aluno');
     console.log('2 - Listar todos os alunos');
